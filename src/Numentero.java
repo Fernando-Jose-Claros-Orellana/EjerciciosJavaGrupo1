@@ -12,7 +12,7 @@ public class Numentero {
 
         System.out.println("Los números pares entre " + primerNumero + " y " + segundoNumero + " son:");
 
-        // Asegurarse de que primerNumero sea menor que segundoNumero
+      
         if (primerNumero > segundoNumero) {
             int temp = primerNumero;
             primerNumero = segundoNumero;
@@ -21,7 +21,7 @@ public class Numentero {
 
         int numeroActual = primerNumero;
 
-        // Mostrar los números pares entre primerNumero y segundoNumero
+        
         while (numeroActual <= segundoNumero) {
             if (numeroActual % 2 == 0) {
                 System.out.println(numeroActual);
