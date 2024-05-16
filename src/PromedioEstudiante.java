@@ -17,7 +17,7 @@ public class PromedioEstudiante {
        } while (nota2 < 0 || nota2 > 10);
 
        do {
-       System.out.println("Ingrese la tercera nota (entre 0 y 10)10");
+       System.out.println("Ingrese la tercera nota (entre 0 y 10)");
        nota3 = scanner.nextFloat();
        } while (nota3 < 0 || nota3 > 10);
 
