@@ -28,5 +28,7 @@ public class Numentero {
             }
             numeroActual++;
         }
+        scanner.close();
     }
+    
 }
